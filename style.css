@@ -4,6 +4,10 @@ body::before {
     height: 60px;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media(min-width:768px) {
     .news-input {
         width:50%;
