@@ -83,9 +83,67 @@
                             voluptatibus unde numquam officiis voluptatem, ad
                             veritatis quas.
                         </p>
-                        <button class="btn btn-primary btnlg">
+                        <button
+                            class="btn btn-primary btnlg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#enroll"
+                        >
                             Start The Enrollment
                         </button>
+
+                        <!-- Modal -->
+                        <div
+                            class="modal fade"
+                            id="enroll"
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                        >
+                            <div class="modal-dialog text-dark">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5
+                                            class="modal-title"
+                                            id="exampleModalLabel"
+                                        >
+                                            Modal title
+                                        </h5>
+                                        <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"
+                                        ></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="lead">
+                                            Fill out this form and will get back to you
+                                        </p>
+                                        <form action="Post">
+                                            <label for="first-name" class="col-form-lable">
+                                                First Name:
+                                            </label>
+                                            <input type="text" class="form-control" id="first-name">
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button
+                                            type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            Close
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-primary"
+                                        >
+                                            Save changes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <img
@@ -425,13 +483,19 @@
                                     <i class="bi bi-twitter text-dark mx-1"></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-facebook text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-linkedin text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-instagram text-dark mx-1"
+                                    ></i>
                                 </a>
                             </div>
                         </div>
@@ -455,13 +519,19 @@
                                     <i class="bi bi-twitter text-dark mx-1"></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-facebook text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-linkedin text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-instagram text-dark mx-1"
+                                    ></i>
                                 </a>
                             </div>
                         </div>
@@ -485,13 +555,19 @@
                                     <i class="bi bi-twitter text-dark mx-1"></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-facebook text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-linkedin text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-instagram text-dark mx-1"
+                                    ></i>
                                 </a>
                             </div>
                         </div>
@@ -515,13 +591,19 @@
                                     <i class="bi bi-twitter text-dark mx-1"></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-facebook text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-linkedin text-dark mx-1"
+                                    ></i>
                                 </a>
                                 <a href="#">
-                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                    <i
+                                        class="bi bi-instagram text-dark mx-1"
+                                    ></i>
                                 </a>
                             </div>
                         </div>
@@ -535,32 +617,22 @@
             <div class="container">
                 <div class="row g-4">
                     <div class="col-md">
-                        <h2 class="text-center mb-4">
-                            Contact Info
-                        </h2>
+                        <h2 class="text-center mb-4">Contact Info</h2>
                         <ul class="list-group list-group-flush lead">
                             <li class="list-group-item">
-                                <span class="fw-bold">
-                                    Main Location:
-                                </span>
+                                <span class="fw-bold"> Main Location: </span>
                                 Tashkent, Uzbekistan
                             </li>
                             <li class="list-group-item">
-                                <span class="fw-bold">
-                                    Student Phone:
-                                </span>
+                                <span class="fw-bold"> Student Phone: </span>
                                 +998 000 00 00
                             </li>
                             <li class="list-group-item">
-                                <span class="fw-bold">
-                                    Student E-mail:
-                                </span>
+                                <span class="fw-bold"> Student E-mail: </span>
                                 student@mail.edu
                             </li>
                             <li class="list-group-item">
-                                <span class="fw-bold">
-                                    Enrolment E-mail:
-                                </span>
+                                <span class="fw-bold"> Enrolment E-mail: </span>
                                 enrollnow@gmail.com
                             </li>
                             <div class="col-md">
@@ -575,13 +647,9 @@
         <!-- Footer -->
         <footer class="p-5 bg-dark position-relative text-white text-center">
             <div class="container">
-                <p class="lead">
-                    Copyright &copy; 2021 Frontend Bootcamp
-                </p>
+                <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
                 <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                    <i class="bi bi-arrow-up-circle h1">
-                        
-                    </i>
+                    <i class="bi bi-arrow-up-circle h1"> </i>
                 </a>
             </div>
         </footer>
